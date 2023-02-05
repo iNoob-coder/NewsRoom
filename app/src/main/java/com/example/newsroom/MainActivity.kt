@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
 
     private fun fetchData() {
         val queue = Volley.newRequestQueue(this)
-        val url = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=9c19ff60b76b4f2ca5f916a66b01b206"
+        val url = "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=9c19ff60b76b4f2ca5f916a66b01b206"
         val getRequest: JsonObjectRequest = object: JsonObjectRequest(
             Method.GET,
             url,
