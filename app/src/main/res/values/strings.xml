@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsRoom</string>
+    <string name="news_room">News Room</string>
+    <string name="technology">TECHNOLOGY</string>
+    <string name="sports">SPORTS</string>
+    <string name="politics">POLITICS</string>
+    <string name="health">Health</string>
+    <string name="business">BUSINESS</string>
+    <string name="news_image">news image</string>
+
+</resources>
